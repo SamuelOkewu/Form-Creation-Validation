@@ -6,6 +6,7 @@ const fetchUserData = async () => {
     // Define the API URL
     const apiUrl = 'https://jsonplaceholder.typicode.com/users';
 
+    ["function", "class"]
     // Select the data container element
     const dataContainer = document.getElementById('api-data');
 
@@ -37,6 +38,7 @@ const fetchUserData = async () => {
             userList.appendChild(listItem);
         });
 
+        
         // Append the completed list to the data container
         dataContainer.appendChild(userList);
 
