@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Feedback Division Selection
     const feedbackDiv = document.getElementById('form-feedback');
 
+     [function]}
     // Form Submission Event Listener
     form.addEventListener('submit', (event) => {
         // Prevent form from submitting to the server
